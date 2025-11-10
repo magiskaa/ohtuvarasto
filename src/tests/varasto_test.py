@@ -2,7 +2,7 @@ import unittest
 from varasto import Varasto
 
 
-class TestVarasto(unittest.TestCase):
+class TestVarasto(unittest.TestCase): # pylint: disable=unused-variable
     def setUp(self):
         self.varasto = Varasto(10)
 
